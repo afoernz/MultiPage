@@ -1,0 +1,75 @@
+body {
+    background-color: #525C70;
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border: inset 5px #495959;
+    background-color: #688ED9;
+}
+
+a {
+    text-decoration: none;
+    font: italic 25px Lucida Console, Monospace;
+    color: #D9A768;
+}
+
+.welcome {
+    text-align: center;
+    color: #89ECF0;
+    font: bold 60px Papyrus, fantasy;
+    position: relative;
+    top: 400px;
+    white-space: pre;
+}
+
+.about {
+    color: #595249;
+    font: bold 35px Lucida Handwriting, Cursive;
+    position: relative;
+    top: 200px;
+    border: dotted 4px #525C70;
+    background-color: #D9A768;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+}
+
+.right {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+    height: 200px;
+}
+
+.left {
+    display: block;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+}
+
+.one {
+    position: relative;
+    top: 100px;
+}
+
+.two {
+    position: relative;
+    top: 125px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
